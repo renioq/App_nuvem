@@ -12,3 +12,90 @@ body {
   line-height: 1.6;
   padding: 20px;
 }
+
+/* Cabeçalho principal */
+h1 {
+  color: #007b8f; /* Ciano escuro */
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Estilo para os links de navegação */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #007b8f; /* Ciano escuro */
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #00adb5; /* Ciano claro ao passar o mouse */
+}
+
+/* Estilo para os formulários */
+form {
+  background-color: #fff; /* Branco para destaque */
+  border: 1px solid #ddd; /* Borda cinza clara */
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc; /* Borda cinza clara */
+  border-radius: 4px;
+  background-color: #f9f9f9; /* Cinza muito claro */
+  color: #333;
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus {
+  border-color: #00adb5; /* Ciano claro ao focar */
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #007b8f; /* Ciano escuro */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  background-color: #00adb5; /* Ciano claro */
+}
+
+/* Estilo para o rodapé (caso precise adicionar mais tarde) */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #666; /* Cinza médio */
+  font-size: 0.9em;
